@@ -5,10 +5,27 @@ body{
 header{
     /* border: 1px dotted red; */
     font-family: 'georgia';
-    color:#363636;
+    /* color:#363636; */
     text-align: center;
+    
 }
 
+header a{
+    color:#363636;
+    text-decoration: none;
+}
+
+header a:hover{
+    color:#363636;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* NAV */
 nav{
     /* border: 1px dotted yellow; */
     /* display:flex; */
@@ -34,10 +51,20 @@ nav li a{
     color:#363636;
     text-decoration: none;
     font-family:arial;
-
-
 }
 
 nav li a:hover{
     color:black;
 }
+/* NAV end */
+
+.def{
+    /* border: 1px solid blue; */
+    color:#363636;
+    font-family: georgia;
+    padding-left: 10%;
+    padding-right:10%;
+}
+
+
+
