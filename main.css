@@ -1,31 +1,43 @@
 body{
-    background-color:lightpink;
+    background-color:#FFB8BE;
 }
 
 header{
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     font-family: 'georgia';
+    color:#363636;
     text-align: center;
 }
 
 nav{
-    border: 1px dotted blue;
+    /* border: 1px dotted yellow; */
     /* display:flex; */
-    font-family: arial;
     padding:0;
     margin:0;
 }
 
 nav ul{
-    border: 1px dotted blue;
+    /* border: 1px dotted red; */
     justify-content: center;
     display: flex;
     padding: 0;
 }
 
 nav li{
-    border: 1px dotted blue;
+    /* border: 1px dotted green; */
     list-style-type: none;
-    padding: 10px;
+    padding: 3%;
     font-size:1.3em;
+}
+
+nav li a{
+    color:#363636;
+    text-decoration: none;
+    font-family:arial;
+
+
+}
+
+nav li a:hover{
+    color:black;
 }
