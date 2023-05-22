@@ -1,4 +1,31 @@
+body{
+    background-color:lightpink;
+}
 
-.h1{
-    font-family: Arial, Helvetica, sans-serif;
+header{
+    border: 1px dotted red;
+    font-family: 'georgia';
+    text-align: center;
+}
+
+nav{
+    border: 1px dotted blue;
+    /* display:flex; */
+    font-family: arial;
+    padding:0;
+    margin:0;
+}
+
+nav ul{
+    border: 1px dotted blue;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+}
+
+nav li{
+    border: 1px dotted blue;
+    list-style-type: none;
+    padding: 10px;
+    font-size:1.3em;
 }
