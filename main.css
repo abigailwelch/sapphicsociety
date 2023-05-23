@@ -56,7 +56,7 @@ nav li a{
 nav li a:hover{
     color:black;
 }
-/* NAV end */
+/* end NAV */
 
 .def{
     /* border: 1px solid blue; */
@@ -66,13 +66,18 @@ nav li a:hover{
     padding-right:10%;
 }
 
+.gif img{
+    width:20vw;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 
 
 
 
-
-
+/* FOOTER */
 footer{
     border:4px dotted red;
     font-family: arial;
@@ -99,3 +104,4 @@ footer li a{
 footer li a:hover{
     color:black;
 }
+/* end FOOTER */
