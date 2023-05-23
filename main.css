@@ -68,3 +68,34 @@ nav li a:hover{
 
 
 
+
+
+
+
+
+footer{
+    border:1px solid red;
+    font-family: arial;
+    text-align: center;
+    color:#363636;
+}
+
+footer ul{
+
+    padding:0;
+}
+
+footer li{
+    list-style-type: none;
+    padding: 1%;
+
+}
+
+footer li a{
+    text-decoration: none;
+    color:#363636;
+}
+
+footer li a:hover{
+    color:black;
+}
